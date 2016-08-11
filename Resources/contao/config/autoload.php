@@ -9,30 +9,12 @@
  */
 
 
-/**
- * Register the namespaces
- */
-ClassLoader::addNamespaces(array
-(
-	'MCupic',
-));
-
-
-/**
- * Register the classes
- */
-ClassLoader::addClasses(array
-(
-	// Elements
-	'MCupic\FixedTabsAsideItem' => 'system/modules/fixed_tabs_aside/elements/FixedTabsAsideItem.php',
-));
-
 
 /**
  * Register the templates
  */
 TemplateLoader::addFiles(array
 (
-	'ce_fixed_tabs_aside_item' => 'system/modules/fixed_tabs_aside/templates',
-	'j_fixed_tabs_aside'       => 'system/modules/fixed_tabs_aside/templates',
+	'ce_fixed_tabs_aside_item' => 'vendor/markocupic/fixed-tabs-aside/Resources/contao/templates',
+	'j_fixed_tabs_aside'       => 'vendor/markocupic/fixed-tabs-aside/Resources/contao/templates',
 ));
