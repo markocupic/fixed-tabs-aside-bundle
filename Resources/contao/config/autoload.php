@@ -15,6 +15,6 @@
  */
 TemplateLoader::addFiles(array
 (
-	'ce_fixed_tabs_aside_item' => 'vendor/markocupic/fixed-tabs-aside/Resources/contao/templates',
-	'j_fixed_tabs_aside'       => 'vendor/markocupic/fixed-tabs-aside/Resources/contao/templates',
+	'ce_fixed_tabs_aside_item' => 'vendor/markocupic/fixed-tabs-aside-bundle/Resources/contao/templates',
+	'j_fixed_tabs_aside'       => 'vendor/markocupic/fixed-tabs-aside-bundle/Resources/contao/templates',
 ));

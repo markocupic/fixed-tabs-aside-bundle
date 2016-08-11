@@ -67,8 +67,8 @@
       <file leaf-file-name="autoload.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Resources/contao/config/autoload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3908046">
-              <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+            <state vertical-scroll-proportion="0.35823753">
+              <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -333,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/contao/config/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3908046">
-          <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+        <state vertical-scroll-proportion="0.35823753">
+          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
           <folding />
         </state>
       </provider>
