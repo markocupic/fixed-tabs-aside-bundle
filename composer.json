@@ -1,0 +1,30 @@
+{
+  "name": "markocupic/fixed-tabs-aside-bundle",
+  "type": "contao-bundle",
+  "description": "Contao 4 fixed tabs aside bundle",
+  "license": "LGPL-3.0+",
+  "authors": [
+    {
+      "name": "Marko Cupic",
+      "homepage": "https://github.com/markocupic"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "contao/core-bundle": ">4.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Markocupic\\FixedTabsAsideBundle\\": ""
+    },
+    "classmap": [
+      "Resources/contao"
+    ],
+    "exclude-from-classmap": [
+      "Resources/contao/config",
+      "Resources/contao/dca",
+      "Resources/contao/languages",
+      "Resources/contao/templates"
+    ]
+  }
+}

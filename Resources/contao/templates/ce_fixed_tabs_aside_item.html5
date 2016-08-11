@@ -1,0 +1,17 @@
+<!-- indexer::stop -->
+<div class="fixed-tabs-aside-tab-pane <?= $this->class ?> block"<?= $this->cssID ?><?php if ($this->style): ?> style="<?= $this->style ?>"<?php endif; ?><?php if ($this->fixedTabsAsideUrl): ?> data-url="<?= $this->fixedTabsAsideUrl ?>"<?php endif; ?><?php if ($this->target): ?> data-target="<?= $this->target ?>"<?php endif; ?><?php if ($this->titleText): ?> data-title="<?= $this->titleText ?>"<?php endif; ?><?php if ($this->iconFontClass): ?> data-icon="<?= $this->iconFontClass ?>"<?php endif; ?>>
+    <div class="fixed-tabs-aside-item-header">
+        <?php if ($this->headline): ?>
+        <<?= $this->hl ?>><?= $this->headline ?></<?= $this->hl ?>>
+        <?php endif; ?>
+    </div>
+
+    <div class="fixed-tabs-aside-item-body">
+        <?= $this->bodyContent ?>
+    </div>
+
+    <div class="fixed-tabs-aside-item-footer">
+        <?= $this->footerContent ?>
+    </div>
+</div>
+<!-- indexer::continue -->
