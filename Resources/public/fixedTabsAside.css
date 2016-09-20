@@ -108,8 +108,11 @@
 #fixedTabsAsideTabContent > .fixed-tabs-aside-content-row .fixed-tabs-aside-tab-pane .fixed-tabs-aside-item-footer * {
     color: #ddd;
 }
-#fixedTabsAsideTabContent > .fixed-tabs-aside-content-row .fixed-tabs-aside-tab-pane .fixed-tabs-aside-item-footer select, #fixedTabsAsideTabContent > .fixed-tabs-aside-content-row .fixed-tabs-aside-tab-pane .fixed-tabs-aside-item-footer option, #fixedTabsAsideTabContent > .fixed-tabs-aside-content-row .fixed-tabs-aside-tab-pane .fixed-tabs-aside-item-footer input {
+#fixedTabsAsideTabContent > .fixed-tabs-aside-content-row .fixed-tabs-aside-tab-pane .fixed-tabs-aside-item-footer select, #fixedTabsAsideTabContent > .fixed-tabs-aside-content-row .fixed-tabs-aside-tab-pane .fixed-tabs-aside-item-footer optgroup, #fixedTabsAsideTabContent > .fixed-tabs-aside-content-row .fixed-tabs-aside-tab-pane .fixed-tabs-aside-item-footer option, #fixedTabsAsideTabContent > .fixed-tabs-aside-content-row .fixed-tabs-aside-tab-pane .fixed-tabs-aside-item-footer input {
     color: #333;
+}
+#fixedTabsAsideTabContent > .fixed-tabs-aside-content-row .fixed-tabs-aside-tab-pane .fixed-tabs-aside-item-footer optgroup {
+    font-weight: bold;
 }
 
 html.fixed-tabs-aside-loaded #fixedTabsAsideIconBar {
@@ -128,3 +131,5 @@ html.fixed-tabs-aside-open #fixedTabsAsideIconBar > div.active {
 html.fixed-tabs-aside-open #fixedTabsAsideTabContent {
     right: 0;
 }
+
+

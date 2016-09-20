@@ -106,8 +106,11 @@
         & * {
           color: #ddd;
         }
-        select, option, input {
+        select, optgroup, option, input {
           color: #333;
+        }
+        optgroup {
+          font-weight: bold;
         }
       }
     }
