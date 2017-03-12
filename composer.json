@@ -10,7 +10,6 @@
     }
   ],
   "require": {
-    "php": ">=5.5.0",
     "contao/core-bundle": "~4.3"
   },
   "autoload": {
