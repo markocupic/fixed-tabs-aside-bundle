@@ -23,7 +23,7 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['bodyContent'] = array(
     'exclude'     => true,
     'search'      => true,
     'inputType'   => 'textarea',
-    'eval'        => array('mandatory' => false, 'rte' => 'tinyMCE', 'helpwizard' => true),
+    'eval'        => array('mandatory' => false, 'rte' => 'tinyMCE', 'helpwizard' => true, 'tl_class' => 'clr'),
     'explanation' => 'insertTags',
     'sql'         => "mediumtext NULL",
 );
@@ -33,7 +33,7 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['footerContent'] = array(
     'exclude'     => true,
     'search'      => true,
     'inputType'   => 'textarea',
-    'eval'        => array('mandatory' => false, 'rte' => 'tinyMCE', 'helpwizard' => true),
+    'eval'        => array('mandatory' => false, 'rte' => 'tinyMCE', 'helpwizard' => true, 'tl_class' => 'clr'),
     'explanation' => 'insertTags',
     'sql'         => "mediumtext NULL",
 );
@@ -43,7 +43,7 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['iconFontClass'] = array(
     'exclude'   => true,
     'search'    => true,
     'inputType' => 'text',
-    'eval'      => array('maxlength' => 200),
+    'eval'      => array('maxlength' => 200, 'tl_class' => 'clr'),
     'sql'       => "varchar(255) NOT NULL default ''",
 );
 $GLOBALS['TL_DCA']['tl_content']['fields']['fixedTabsAsideUrl'] = array(
