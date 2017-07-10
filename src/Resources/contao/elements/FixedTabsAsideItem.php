@@ -8,7 +8,7 @@
  * @license LGPL-3.0+
  */
 
-namespace Markocupic\FixedTabsAside;
+namespace Markocupic\FixedTabsAsideBundle;
 
 
 /**
