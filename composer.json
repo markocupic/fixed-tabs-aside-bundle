@@ -15,7 +15,7 @@
   "autoload": {
     "autoload": {
       "psr-4": {
-        "Markocupic\\FixedTabsAside\\": "src/"
+        "Markocupic\\FixedTabsAsideBundle\\": "src/"
       }
     }
   }
