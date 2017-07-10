@@ -10,20 +10,13 @@
     }
   ],
   "require": {
-    "contao/core-bundle": ">=4.3"
+    "contao/core-bundle": ">=4.4"
   },
   "autoload": {
-    "psr-4": {
-      "Markocupic\\FixedTabsAsideBundle\\": "src/"
-    },
-    "classmap": [
-      "src/Resources/contao"
-    ],
-    "exclude-from-classmap": [
-      "src/Resources/contao/config",
-      "src/Resources/contao/dca",
-      "src/Resources/contao/languages",
-      "src/Resources/contao/templates"
-    ]
+    "autoload": {
+      "psr-4": {
+        "Markocupic\\FixedTabsAside\\": "src/Resources/contao/elements"
+      }
+    }
   }
 }

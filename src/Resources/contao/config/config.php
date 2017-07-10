@@ -9,4 +9,4 @@
 
 
 // Content element
-$GLOBALS['TL_CTE']['fixedTabsAside']['fixedTabsAsideItem'] = 'MCupic\FixedTabsAsideItem';
+$GLOBALS['TL_CTE']['fixedTabsAside']['fixedTabsAsideItem'] = 'Markocupic\FixedTabsAside\FixedTabsAsideItem';

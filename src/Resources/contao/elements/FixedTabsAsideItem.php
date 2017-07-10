@@ -8,13 +8,12 @@
  * @license LGPL-3.0+
  */
 
-namespace MCupic;
+namespace Markocupic\FixedTabsAside;
 
 
 /**
- * Front end content element "service_link".
- *
- * @author Leo Feyer <https://github.com/leofeyer>
+ * Class FixedTabsAsideItem
+ * @package Markocupic\FixedTabsAside
  */
 class FixedTabsAsideItem extends \ContentElement
 {
