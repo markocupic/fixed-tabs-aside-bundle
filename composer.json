@@ -13,12 +13,9 @@
     "contao/core-bundle": ">=4.4"
   },
   "autoload": {
-    "autoload": {
-      "psr-4": {
-        "Markocupic\\FixedTabsAsideBundle\\": "src/",
-        "Markocupic\\FixedTabsAside\\": "src/Resources/contao/elements/"
-
-      }
+    "psr-4": {
+      "Markocupic\\FixedTabsAsideBundle\\": "src/",
+      "Markocupic\\FixedTabsAside\\": "src/Resources/contao/elements/"
     }
   }
 }
