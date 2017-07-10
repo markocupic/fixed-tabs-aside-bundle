@@ -15,7 +15,7 @@
   "autoload": {
     "autoload": {
       "psr-4": {
-        "Markocupic\\FixedTabsAside\\": "src/Resources/contao/elements"
+        "Markocupic\\FixedTabsAside\\": "src/"
       }
     }
   }
