@@ -19,20 +19,21 @@
     margin-top: 175px;
     position: fixed;
     top: 0;
-    right: -40px;
-    width: 40px;
+    right: -46px;
+    width: 46px;
     text-align: center;
     transition: right 1s ease-in-out;
 }
 #fixedTabsAsideIconBar > div {
     background-color: #000;
+    padding: 9px 12px;
+    cursor: pointer;
 }
 #fixedTabsAsideIconBar > div:last-child {
     border: 0;
 }
-#fixedTabsAsideIconBar > div .fa {
-    line-height: 40px;
-    font-size: 20px; 
+#fixedTabsAsideIconBar > div [class*="fa-"] {
+    font-size: 20px;
     color: #fff;
 }
 
