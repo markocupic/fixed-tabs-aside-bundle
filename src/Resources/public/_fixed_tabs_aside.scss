@@ -57,12 +57,15 @@
     height: 40px;
     text-align: right;
     .fixed-tabs-aside-close-button {
-      padding: 0;
+      padding: 0 15px;
+      background-color: red;
+      color: #eee;
       border: 0;
       height: 40px;
       margin-left: 1px;
       > i {
         height: 40px;
+        width: 40px;
         margin: 0;
         padding: 7px 10px;
         background-color: red;

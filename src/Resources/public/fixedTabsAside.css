@@ -57,16 +57,18 @@
     text-align: right;
 }
 #fixedTabsAsideTabContent > .fixed-tabs-aside-nav-row .fixed-tabs-aside-close-button {
-    padding: 0;
+    padding: 0 15px;
+    background-color: red;
+    color: #eee;
     border: 0;
     height: 40px;
     margin-left: 1px;
 }
 #fixedTabsAsideTabContent > .fixed-tabs-aside-nav-row .fixed-tabs-aside-close-button > i {
     height: 40px;
+    width: 40px;
     margin: 0;
     padding: 7px 10px;
-    background-color: red;
     font-size: 26px;
     color: #eee;
 }
