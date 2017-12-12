@@ -17,5 +17,8 @@
       "Markocupic\\FixedTabsAsideBundle\\": "src/",
       "Markocupic\\FixedTabsAside\\": "src/Resources/contao/elements/"
     }
+  },
+  "extra": {
+    "contao-manager-plugin": "Markocupic\\FixedTabsAsideBundle\\ContaoManager\\Plugin"
   }
 }
