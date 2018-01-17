@@ -102,6 +102,10 @@
         select, optgroup, option, input {
           color: #333;
         }
+
+        input,select,textarea {
+          border:0;
+        }
       }
       .fixed-tabs-aside-item-footer {
         color: #ddd;

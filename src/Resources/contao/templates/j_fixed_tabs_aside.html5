@@ -1,6 +1,6 @@
 <?php
-    $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/markocupicfixedtabsaside/fixedTabsAside.js';
-    $GLOBALS['TL_CSS'][] = 'bundles/markocupicfixedtabsaside/fixedTabsAside.css';
+    $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/markocupicfixedtabsaside/fixedTabsAside.js|static';
+    $GLOBALS['TL_CSS'][] = 'bundles/markocupicfixedtabsaside/fixedTabsAside.css|static';
 ?>
 <script>
     (function ($) {

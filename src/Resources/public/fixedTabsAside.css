@@ -103,6 +103,12 @@
 #fixedTabsAsideTabContent > .fixed-tabs-aside-content-row .fixed-tabs-aside-tab-pane .fixed-tabs-aside-item-body select, #fixedTabsAsideTabContent > .fixed-tabs-aside-content-row .fixed-tabs-aside-tab-pane .fixed-tabs-aside-item-body optgroup, #fixedTabsAsideTabContent > .fixed-tabs-aside-content-row .fixed-tabs-aside-tab-pane .fixed-tabs-aside-item-body option, #fixedTabsAsideTabContent > .fixed-tabs-aside-content-row .fixed-tabs-aside-tab-pane .fixed-tabs-aside-item-body input {
     color: #333;
 }
+#fixedTabsAsideTabContent > .fixed-tabs-aside-content-row .fixed-tabs-aside-tab-pane .fixed-tabs-aside-item-body input,
+#fixedTabsAsideTabContent > .fixed-tabs-aside-content-row .fixed-tabs-aside-tab-pane .fixed-tabs-aside-item-body select,
+#fixedTabsAsideTabContent > .fixed-tabs-aside-content-row .fixed-tabs-aside-tab-pane .fixed-tabs-aside-item-body textarea
+{
+    border:0;
+}
 #fixedTabsAsideTabContent > .fixed-tabs-aside-content-row .fixed-tabs-aside-tab-pane .fixed-tabs-aside-item-footer {
     color: #ddd;
     background-color: transparent;
